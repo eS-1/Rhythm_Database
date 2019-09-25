@@ -22,6 +22,7 @@ users_data = [(2, "Kouji Tadokoro", "Senior", 19.19),
 
 # 削除
 # cur.execute('delete from users')
+# cur.execute('delete from users where score < 10.0')
 
 connector.commit()
 connector.close()
